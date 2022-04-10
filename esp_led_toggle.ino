@@ -5,8 +5,8 @@
 #include <ESPAsyncWebServer.h>
 
 // Replace with your network credentials
-const char* ssid = "PTCL-BB";
-const char* password = "Waqas4485096";
+const char* ssid = ""; // your network name
+const char* password = ""; // your network password
 
 bool ledState = 0;
 const int ledPin = 2; //D4 on ESP8266 and pin 2 on ESP32
